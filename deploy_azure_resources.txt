@@ -1,0 +1,3 @@
+TO test azure deployment template use the command
+Test-AzureRmResourceGroupDeployment -ResourceGroupName ExampleResourceGroup 
+  -TemplateFile c:\MyTemplates\storage.json -storageAccountType Standard_GRS
